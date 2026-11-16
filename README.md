@@ -2,7 +2,7 @@
 
 A volume limiter for Windows that lives in your system tray and keeps the sound coming out of your speakers under the limit you set — no matter how loud whatever you're watching or playing gets.
 
-If a movie scene suddenly explodes or a video starts clipping, SoundLimit turns the master volume down just enough to stay at your limit, then brings it back up slowly when things go quiet. The volume is never lowered when the audio is already below the limit, and it never goes below what you actually need.
+If a movie scene suddenly explodes or a video starts clipping, SoundLimit stay at your limit.
 
 ## Features
 
@@ -17,8 +17,10 @@ If a movie scene suddenly explodes or a video starts clipping, SoundLimit turns 
 ## Requirements
 
 - **Windows 10 or 11, 64-bit.**
-- **.NET Desktop Runtime 10.x** — free from Microsoft. The installer checks for it first and, if it's missing, shows a page explaining exactly what to download so you can retry without closing the installer.
-- Nothing else to install. The only third-party library bundled in the app is [NAudio](https://github.com/naudio/NAudio) (MIT license), used to read and set the Windows master volume.
+- **.NET Desktop Runtime 10.x** 
+- **Windows Dekstop Runtime 10** 
+
+The installer checks for it first and, if it's missing, shows a page explaining exactly what to download so you can retry without closing the installer.
 
 ## Getting started
 
@@ -32,7 +34,7 @@ Click the tray icon to open the menu and drag the slider to the limit you want. 
 
 To stop limiting temporarily, open the menu and turn the limiter off (icon turns grey). To quit, choose Exit.
 
-Want it always running? Enable **Start with Windows** in the menu (Settings).
+Want it always running on startup? Enable **Start with Windows** in the menu (Settings).
 
 ## Updating and uninstalling
 
