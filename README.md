@@ -14,13 +14,17 @@ If a movie scene suddenly explodes or a video starts clipping, SoundLimit turns 
 - **Menu in Spanish or English** — Settings → Language, defaults to your Windows language.
 - **Start with Windows** — optional, toggled from the menu.
 
+## Requirements
+
+- **Windows 10 or 11, 64-bit.**
+- **.NET Desktop Runtime 10.x** — free from Microsoft. The installer checks for it first and, if it's missing, shows a page explaining exactly what to download so you can retry without closing the installer.
+- Nothing else to install. The only third-party library bundled in the app is [NAudio](https://github.com/naudio/NAudio) (MIT license), used to read and set the Windows master volume.
+
 ## Getting started
 
 1. Download the latest `SoundLimit-x.y.z-setup.exe` from the [Releases](../../releases) page and run it.
 2. The installer asks for no admin rights, installs only for your user, and leaves a Start Menu shortcut (desktop shortcut is optional). Tick "Run SoundLimit" at the end, or launch it later from the Start Menu.
 3. A blue icon appears in the system tray (check the hidden-icons area if you don't see it).
-
-> The installer checks first that your PC has the **.NET Desktop Runtime (10.x)** SoundLimit needs. If it's missing, it shows a page explaining exactly what to download, and you can retry without closing the installer.
 
 ## How to use it
 
